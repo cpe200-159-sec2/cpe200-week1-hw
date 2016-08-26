@@ -4,10 +4,13 @@
 public class Hw1_1 {
     public int countEvenNum(int[] inputs)
     {
-        /**
-         * Your code here
-         */
-        return 0;
+        int nEven = 0;
+        for (int val : inputs) {
+            if (0 == val % 2) {
+                nEven += 1;
+            }
+        }
+        return nEven;
     }
 
 
