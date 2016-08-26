@@ -5,6 +5,7 @@ public class Hw1_2 {
     float gpaCalculation(int[] credit, int[] grade)
     {
         int numberOfCourses = grade.length;
+        if (0 == numberOfCourses) return 0.0f;
         int totalCredits = 0;
         float weightedSum = 0.0f;
         float weightedAvg = 0.0f;
