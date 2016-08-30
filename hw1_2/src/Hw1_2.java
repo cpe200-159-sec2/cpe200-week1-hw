@@ -7,11 +7,9 @@ public class Hw1_2 {
                     total+=credit[i]*grade[i];
                     classes+=credit[i];
                 }
-
                 gpa = classes/total;
                 return gpa;
     }
-
     public static void main(String[] args) {
         int[] credit = {3, 3, 3, 3, 2};
         int[] grade  = {2, 4, 4, 3, 2};
