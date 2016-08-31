@@ -4,12 +4,19 @@
 public class Hw1_1 {
     public int countEvenNum(int[] inputs)
     {
-        /**
-         * Your code here
-         */
-        return 0;
-    }
+        int event=0;
+       for(int i=0;i<inputs.length;i++){
 
+           if (inputs[i]%2==0){
+              event++;
+           }
+
+
+       }
+
+        return event;
+
+    }
 
     public static void main(String[] args) {
         Hw1_1 h = new Hw1_1();
